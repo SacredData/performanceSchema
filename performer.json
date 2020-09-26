@@ -2,8 +2,7 @@
   "type": "object",
   "title": "Performer",
   "required": [
-    "lastName",
-    "instrument"
+    "lastName"
   ],
   "properties": {
     "firstName": {
@@ -16,7 +15,11 @@
     },
     "instrument": {
       "type": "array",
-      "items": { "$ref": "#/definitions/address"  }
+      "items": { "$ref": "#/instrument"  }
+    },
+    "email": {
+      "type": "string",
+      "example": "agrathwohl@gmail.com"
     }
   }
 }
