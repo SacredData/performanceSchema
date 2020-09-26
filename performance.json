@@ -8,7 +8,8 @@
     },
     "performer": {
       "type": "array",
-      "items": { "$ref": "#/definitions/address"  }
-    }
+      "items": { "$ref": "#/performer"  }
+    },
+    "coordinate": { "$ref": "#/coordinate" }
   }
 }

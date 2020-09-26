@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "title": "Session",
+  "required": [],
+  "properties": {
+    "event": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "recording",
+          "practice",
+          "jam",
+          "concert",
+          "other"
+        ]
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "full-date"
+    }
+  }
+}
