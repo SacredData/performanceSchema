@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "title": "Venue",
+  "properties": {
+    "name": {
+      "type": "string",
+      "example": "Alice Tully Hall"
+    },
+    "location": { "$ref": "#/coordinate" }
+  }
+}
