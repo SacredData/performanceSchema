@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "title": "Instrument Configuration",
+  "required": [
+
+  ],
+  "properties": {
+    "accessories": {
+      "type": "array",
+      "items": { "$ref": "#/instrumentAccessory"  },
+      "default": []
+    }
+  }
+}

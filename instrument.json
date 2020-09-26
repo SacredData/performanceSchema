@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "title": "Instrument",
+  "required": [
+    "device"
+  ],
+  "properties": {
+    "device": {
+      "type": "string",
+      "example": "violin"
+    },
+    "make": {
+      "type": "string",
+      "example": "Stradivarius"
+    },
+    "model": {
+      "type": "string",
+      "example": "Molitor"
+    },
+    "configuration": { "$ref": "#/instrumentConfiguration"  }
+  }
+}
