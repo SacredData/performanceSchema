@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "title": "Performance",
+  "required": [],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "performer": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/address"  }
+    }
+  }
+}

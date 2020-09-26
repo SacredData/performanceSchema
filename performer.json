@@ -15,13 +15,8 @@
       "example": "Grathwohl"
     },
     "instrument": {
-      "type": "object",
-      "properties": {
-        "device": {
-          "type": "string",
-          "example": "violin"
-        }
-      }
+      "type": "array",
+      "items": { "$ref": "#/definitions/address"  }
     }
   }
 }
