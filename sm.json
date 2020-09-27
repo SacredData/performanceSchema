@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "title": "Sonic Multiplicities",
+  "properties": {
+    "supercolliderVersion": {
+      "type": "number"
+    },
+    "osKernel": {
+      "type": "string"
+    }
+  }
+}
