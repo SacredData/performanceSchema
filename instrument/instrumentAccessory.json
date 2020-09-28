@@ -2,7 +2,7 @@
   "type": "object",
   "title": "Instrument Accessory",
   "required": [
-
+    "device"
   ],
   "properties": {
     "make": {
@@ -15,8 +15,11 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["string", "reed", "bow", "rosin", "pickup", "amplifier", "foot pedal", "mute", "slide"]
+        "enum": ["string", "reed", "bow", "rosin", "pickup", "amplifier", "foot pedal", "mute", "slide", "found object", "other"]
       }
+    },
+    "tuning": {
+      "type": "string"
     }
   }
 }

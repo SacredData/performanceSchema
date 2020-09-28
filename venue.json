@@ -1,6 +1,9 @@
 {
   "type": "object",
   "title": "Venue",
+  "required": [
+    "name"
+  ],
   "properties": {
     "name": {
       "type": "string",

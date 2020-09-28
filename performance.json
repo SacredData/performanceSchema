@@ -1,7 +1,11 @@
 {
   "type": "object",
   "title": "Performance",
-  "required": [],
+  "required": [
+    "title",
+    "performer",
+    "venue"
+  ],
   "properties": {
     "title": {
       "type": "string"
@@ -10,6 +14,6 @@
       "type": "array",
       "items": { "$ref": "#/performer"  }
     },
-    "coordinate": { "$ref": "#/coordinate" }
+    "venue": { "$ref": "#/venue" }
   }
 }
